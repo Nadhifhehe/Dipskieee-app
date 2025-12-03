@@ -1,7 +1,7 @@
 import streamlit as st
 import random
 
-tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(["Home", "Ganjil/Genap", "TDL", "Games", "TESTING", "APLIKASI SEDERHANA"])
+tab1, tab2, tab3, tab4, tab5, tab6, tab7 = st.tabs(["Home", "Ganjil/Genap", "TDL", "Games", "TESTING", "APLIKASI SEDERHANA", "cubacuba"])
 
 with tab1:
     st.title("Halaman Utama")
@@ -120,4 +120,13 @@ with tab6:
           st.write(f"Uang Kembalian: Rp. {kembalian_uang:,.0f}")
       else:
           st.write("Uang yang anda bayarkan kurang ")
+
+with tab7:
+    col1, col2 = st.columns(2)
+
+with col1:
+    st.write("Ini di kiri")
+
+with col2:
+    st.write("Ini di kanan")
 
