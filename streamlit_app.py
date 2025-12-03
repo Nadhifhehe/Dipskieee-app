@@ -120,4 +120,12 @@ with tab6:
           st.write(f"Uang Kembalian: Rp. {kembalian_uang:,.0f}")
       else:
           st.write("Uang yang anda bayarkan kurang ")
+with tab 6:
+st.title ("test")
+col1, col2 = st.columns(2)
 
+     with col1:
+        st.write("Ini di kiri")
+
+    with col2:
+        st.write("Ini di kanan")
